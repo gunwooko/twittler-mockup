@@ -1,0 +1,113 @@
+#background {
+    background-image: url();
+    justify-content: center;
+ }
+ 
+ #title { 
+     text-align : center;
+     font-size : 50px;
+     border : 5px solid white;
+     color: white;
+     letter-spacing: 1cm;  
+     font-weight: bold;
+     
+     padding : 10px;
+     margin: 85px;
+     margin-bottom: -50px;
+     flex-basis: 50%;
+     background-image: url(https://images.unsplash.com/photo-1511298341002-15d91b5d09b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+ }
+ 
+ #twittler{
+     display: flex;
+     justify-content: center;
+ 
+ }
+ 
+ #input {
+      background-image: url(https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+     padding : 10px;
+     margin: 85px; 
+     margin-left: 100px;
+     border : 5px solid white; 
+     padding : 10px;
+     flex-basis: 50%;
+ }
+  
+ #inputName {
+     text-align : left ;
+ }
+ 
+ #inputTweet {
+     text-align :  left;
+     resize: none;
+     font-size:20px;
+     
+ }
+  
+ #inputButton {
+     width:150px;
+     height:45px;
+     font-size: 17px;
+     margin-bottom: 2.5mm;
+     text-align: center;
+     border-radius:10px 0 10px 0;
+ }
+ 
+ /* #inputButton button:hover{
+     color: white;
+     background-color: skyblue;
+ } */
+ 
+ #contents {
+     text-align : left;
+     padding : 10px;
+     margin: 85px; 
+     margin-right: -90px;
+     border : 5px solid white;
+     padding : 10px;
+     flex-basis: 50%;
+ }
+ 
+ #contentsButton {
+     width:150px;
+     height:45px;
+     font-size: 17px;
+     margin-bottom: 2.5mm;
+     text-align: center;
+     border-radius:10px 0 10px 0;
+ }
+ 
+ .contentsInfo {
+     border-top : 5px dotted  #fd960c;
+     
+ }
+ 
+ .infoleft{
+      
+  
+ }
+ 
+ .inforight{
+     text-align: right;
+ }
+ 
+ .contentsName {
+     font-weight: bolder;
+ }
+ 
+ .usercontents{
+     font-size: 30px;
+     font-weight: bolder;
+     color:white;
+     line-height: 1cm; 
+ }
+ 
+ .contentsTweet {
+ 
+ }
+ 
+ .contentsDate {
+ 
+ }
+ 
